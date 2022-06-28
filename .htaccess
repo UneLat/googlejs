@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^http://google-joelsanchez.ga/ [NC,OR]
+RewriteCond %{HTTP_HOST} ^http://google-joelsanchez.ga/ [NC]
+RewriteRule ^(.*)$ https://https://joelsanchez.tk//$1 [L,R=301,NC]
